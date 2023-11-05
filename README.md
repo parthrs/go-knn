@@ -2,6 +2,7 @@
 The goal of this is to revisit an old algorithm that I had learnt in undergrad in my current language of choice (Go)
 
 [Source](https://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/)
+[Additional reading](https://machinelearningmastery.com/k-fold-cross-validation/)
 
 What I appreciated about Go while writing this (vs Python):
 - I know what (type) each function is going to return. For instance the `crossValidationSplit` function; while reading the python example it was hard for me to figure what will be the structure type i.e. the return type for the function.
