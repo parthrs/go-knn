@@ -164,3 +164,23 @@ func TestFlattenSlice(t *testing.T) {
 		t.Errorf("Expected: %v, got: %v\n", expected, result)
 	}
 }
+
+func TestEuclideanDistance(t *testing.T) {
+	i := []float64{6.3, 2.5, 5.0, 1.9}
+	j := []float64{4.4, 3.0, 1.3, 0.2}
+	k := []float64{5.9, 3.2, 4.8, 1.8}
+
+	expected := float64(4.521061822182927)
+	result, _ := EuclideanDistance(i, j)
+
+	if equal := reflect.DeepEqual(expected, result); !equal {
+		t.Errorf("Expected %f, got %f", expected, result)
+	}
+
+	expected = float64(0.8366600265340756)
+	result, _ = EuclideanDistance(i, k)
+
+	if equal := reflect.DeepEqual(expected, result); !equal {
+		t.Errorf("Expected %f, got %f", expected, result)
+	}
+}
