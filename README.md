@@ -1,5 +1,5 @@
-## Revisiting an algorithm
-The goal of this is to revisit an old algorithm that I had learnt in undergrad in my current language of choice (Go)
+## Revisiting an algorithm: KNN
+The goal of this is to revisit an old algorithm that I had learnt in undergrad in my current language of choice (Go). KNN (K nearest neighbors) is a lazy algorithm to classify (i.e. match by closeness) input to one of the types in the training set.
 
 [Source](https://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/)
 [Additional reading](https://machinelearningmastery.com/k-fold-cross-validation/)
